@@ -4,7 +4,17 @@
   padding: 0;
   font-family: "Quicksand";
   color: #333;
-  background-color: #fefefe;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.full-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: white;
 }
 
 /* header */
@@ -27,6 +37,11 @@ nav {
   height: 10vh;
   width: auto;
   padding-left: 25px;
+  background-color: rgb(239,237,236);
+}
+
+.cart-logo {
+  height: 4vh;
   background-color: rgb(239,237,236);
 }
 
@@ -72,6 +87,37 @@ nav .menu span {
   background-color: black;
   border-radius: 0.2rem;
 }
+
+/* Footer */
+.footer-container {
+  background-color: rgb(239,237,236);
+  width: 100%;
+  /*position: absolute;
+  bottom: 0;*/
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: auto;
+}
+
+.col-small {
+  padding-top: 10px;
+  color: grey;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.row {
+  text-align: center;
+}
+
+.list-unstyled {
+  list-style: none;
+}
+
 
 @media (max-width: 480px) {
   nav .menu {

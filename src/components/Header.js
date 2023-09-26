@@ -22,9 +22,12 @@ export default function Header() {
           <NavLink to="/shop">Shop</NavLink>
         </li>
         <li>
-          <NavLink to="/cart">Cart</NavLink>
+          <NavLink to="/cart"><img className="cart-logo" src='./images/shopping-cart.png'/></NavLink>
         </li>
       </ul>
     </nav>
   )
 }
+
+
+
