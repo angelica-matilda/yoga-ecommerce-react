@@ -6,8 +6,10 @@ export default function Header() {
 
   return (
     <nav>
-      <Link to="/home"><img alt="" className="logo" src="./images/lotus.png"></img></Link>
+      <Link to="/"><img alt="" className="logo" src="./images/lotus.png"></img></Link>
+      <h1 className='companyName'>EXHALE YOGA</h1>
       <div className="menu"
+        // Menu icon/button, toggles menuOpen state when clicked //
         onClick={() => {setMenuOpen(!menuOpen)
         }}>
         <span></span>

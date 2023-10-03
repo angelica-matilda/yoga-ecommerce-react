@@ -4,7 +4,6 @@ export default function Footer() {
   return (
     <div className="footer-container">
       <div className="flex">
-        {/* column 1*/}
         <div className="col">
           <h4>YOGA WITH US</h4>
           <ul className="list-unstyled">
@@ -13,7 +12,6 @@ export default function Footer() {
             <li>123 Street South North</li>
           </ul>
         </div>
-        {/* column 2*/}
         <div className="col">
           <h4>STUFF</h4>
           <ul className="list-unstyled">
@@ -22,7 +20,6 @@ export default function Footer() {
             <li>Third thing</li>
           </ul>
         </div>
-        {/* column 3*/}
         <div className="col">
           <h4>YOGA</h4>
           <ul className="list-unstyled">
